@@ -17,34 +17,30 @@ O **SMART ATIPC** atua como essa camada intermediária de tradução.
 Ele não apenas identifica o "bug" emocional, mas oferece **indicações de manejos cabíveis** para estabilizar o sistema e evitar shutdowns ou sobrecargas.
 
 
-### Módulos do Sistema
+###  Módulos do Sistema
 
-* **`varredura_fisica.py`**: O Scanner. Recebe inputs sobre sensações táteis, térmicas e motoras (ex: "estômago vazio", "mão suada", "luz incomodando").
+* **`varredura_fisica.py`**: O Scanner de Hardware. Recebe inputs sobre sensações táteis, térmicas e motoras (ex: "estômago vazio", "mão suada", "luz incomodando").
   
-* **`dicionario.py`**: A Base de Dados. Um dicionário expansível que mapeia termos e aprende novas sensações conforme o uso.
+* **`dicionario.py`**: O Banco de Dados de Memória. Um dicionário expansível que mapeia termos e aprende novas sensações conforme o uso.
   
 * **`manejo.py`**: O Processador Central. Analisa a intensidade, o horário e o diagnóstico para entregar um relatório detalhado com instruções de autocuidado.
+  
+* **`sensor_hiperfoco.py`**: O Vigilante. Um loop de monitoramento que atua como um timer de manutenção preventiva, disparando alertas de pausa e hidratação a cada 2 horas de atividade interrupta.
+
 
 ---
 
-## Como o Sistema "Pensa"
+##  Como o Sistema "Pensa" (Exemplos de Debug)
 
-O sistema utiliza uma lógica de **Debug Humano**. Confira alguns exemplos de diagnóstico:
+O sistema utiliza uma lógica de **Investigação de Bugs Humanos**:
 
 > **Input:** *"Coração acelerado e mãos tremendo"*
-
 > **Diagnóstico:** `Ansiedade / Modo de Fuga Ativado`
-
 > **Ação de Manejo:** "FOCO NO HARDWARE: Toque em algo gelado. Respire contando até 4. Isso é uma descarga química, não é um fato real. VOCÊ ESTÁ SEGURO!"
 
-
-
-> **Input:** *"Não consigo sair do sofá mesmo querendo muito"*
-
-> **Diagnóstico:** `Inércia Executiva / Falha na Inicialização`
-
-> **Ação de Manejo:** "Dê um tranco manual no motor. Execute micro-tarefas de 30 segundos para quebrar a paralisia."
-
+> **Alerta Automático:** *"Status: 2 horas de atividade detectadas"*
+> **Diagnóstico:** `Risco de Esgotamento de Hardware`
+> **Ação de Manejo:** "Manutenção obrigatória: Beba água, alongue o pescoço e faça uma pausa de 5 minutos."
 
 ---
 
@@ -60,7 +56,7 @@ O sistema utiliza uma lógica de **Debug Humano**. Confira alguns exemplos de di
    python manejo.py
 
 
- ##  Filosofia de Desenvolvimento
+##  Filosofia de Desenvolvimento
 
 Este projeto une **Pedagogia**, **Investigação** e **Programação**. 
 
@@ -70,16 +66,19 @@ No SMART ATIPC, seguimos estas diretrizes:
 * **O passado é um arquivo de "apenas leitura"**; pare de tentar rodar scripts de edição em logs que já foram fechados.
 * **Descanso é upgrade de performance**, nunca uma falha de produtividade.
 * **Erros de sintaxe na vida acontecem:** O importante é que, mesmo com pequenos erros, já estamos entendendo muito mais do que antes.
+* **Funcionamento diferente ainda é funcionamento:** Não buscamos a "correção" de um padrão, mas a otimização da nossa própria arquitetura.
 
 ---
 
-## 📈 Roadmap / Próximos Passos
+
+##  Roadmap / Próximos Passos
 
 - [x] Mapeamento inicial de 30 estados emocionais/físicos.
 - [x] Sistema de relatório dinâmico por intensidade e horário.
-- [ ] Implementação de **Sensores de Hiperfoco** (alarmes de manutenção preventiva).
+- [x] Implementação de **Sensores de Hiperfoco** (vigilante de manutenção preventiva).
+- [x] Integração total entre os módulos (Scanner, Dicionário, Manejo).
 - [ ] Interface gráfica (GUI) customizada para redução de impacto sensorial.
-- [ ] Integração total entre os módulos de diagnóstico de "bugs" físicos e mentais.
+
 
 ---
 
