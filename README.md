@@ -2,6 +2,7 @@
 ### **S**canner e **M**anejo de **A**lexitimia **R**emotamente **T**ratada para **P**essoas **N**euroatípicas
 
 O **SMART ATIPC** é um projeto de tecnologia assistiva que funciona como um **"Exoesqueleto Mental"**. 
+
 Desenvolvido em Python, o sistema foi projetado para ajudar pessoas neurodivergentes (especialmente aquelas com alexitimia) a traduzir telemetria biológica — sinais físicos e sensações — em emoções identificáveis e protocolos de manejo práticos.
 
 ---
@@ -10,6 +11,7 @@ Desenvolvido em Python, o sistema foi projetado para ajudar pessoas neurodiverge
 ##  Sobre o Projeto
 
 Muitas vezes, o hardware (nosso corpo) envia sinais que o software (nossa consciência) não consegue processar ou nomear. 
+
 O **SMART ATIPC** atua como essa camada intermediária de tradução. 
 
 Ele não apenas identifica o "bug" emocional, mas oferece **indicações de manejos cabíveis** para estabilizar o sistema e evitar shutdowns ou sobrecargas.
@@ -34,6 +36,8 @@ O sistema utiliza uma lógica de **Debug Humano**. Confira alguns exemplos de di
 > **Diagnóstico:** `Ansiedade / Modo de Fuga Ativado`
 
 > **Ação de Manejo:** "FOCO NO HARDWARE: Toque em algo gelado. Respire contando até 4. Isso é uma descarga química, não é um fato real. VOCÊ ESTÁ SEGURO!"
+
+
 
 > **Input:** *"Não consigo sair do sofá mesmo querendo muito"*
 
