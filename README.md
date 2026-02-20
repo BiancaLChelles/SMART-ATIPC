@@ -18,9 +18,9 @@ Ele não apenas identifica o "bug" emocional, mas oferece **indicações de mane
 ### Módulos do Sistema
 
 * **`varredura_fisica.py`**: O Scanner. Recebe inputs sobre sensações táteis, térmicas e motoras (ex: "estômago vazio", "mão suada", "luz incomodando").
-* 
+  
 * **`dicionario.py`**: A Base de Dados. Um dicionário expansível que mapeia termos e aprende novas sensações conforme o uso.
-* 
+  
 * **`manejo.py`**: O Processador Central. Analisa a intensidade, o horário e o diagnóstico para entregar um relatório detalhado com instruções de autocuidado.
 
 ---
@@ -44,14 +44,8 @@ O sistema utiliza uma lógica de **Debug Humano**. Confira alguns exemplos de di
 
 ---
 
+
 ##  Instalação e Uso
-
-1. **Requisitos:** Ter o Python 3.x instalado em sua máquina.
-2. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/seu-usuario/SMART-ATIPC.git](https://github.com/seu-usuario/SMART-ATIPC.git)
-
-## ⚙️ Instalação e Uso
 
 1. **Requisitos:** Ter o Python 3.x instalado.
 2. **Clone o repositório:**
@@ -60,6 +54,7 @@ O sistema utiliza uma lógica de **Debug Humano**. Confira alguns exemplos de di
 3. **Execute o programa principal:**
    ```bash
    python manejo.py
+
 
  ##  Filosofia de Desenvolvimento
 
