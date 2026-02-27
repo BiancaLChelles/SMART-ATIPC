@@ -1,5 +1,5 @@
 # SMART ATIPC
-### **S**istema de **M**anejo de **A**lexitimia **R**emoto e **T**ecnológico para Neuro**atípic**as
+### **S**istema de **M**anejo de **A**lexitimia **R**emoto e **T**ecnológico para Neuro**atípic**os
 
 O **SMART ATIPC** é um projeto de tecnologia assistiva que funciona como um **"Exoesqueleto Mental"**. 
 
